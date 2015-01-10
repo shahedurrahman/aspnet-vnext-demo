@@ -1,6 +1,4 @@
-﻿using System;
-using Microsoft.AspNet.Builder;
-using Microsoft.AspNet.Http;
+﻿using Microsoft.AspNet.Builder;
 
 namespace WebApplication20
 {
@@ -8,7 +6,7 @@ namespace WebApplication20
     {
         public void Configure(IApplicationBuilder app)
         {
-            // For more information on how to configure your application, visit http://go.microsoft.com/fwlink/?LinkID=398940
+            app.UseWelcomePage();
         }
     }
 }
